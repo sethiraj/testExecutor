@@ -20,9 +20,9 @@ Use maven to create war with command
 
 To have our WAR file deployed and running in Tomcat, we need to complete the following steps:
 
-Download Apache Tomcat and unpackage it into a tomcat folder
-Copy our WAR file from target/test-executor.war to the tomcat/webapps/ folder
-From a terminal navigate to tomcat/bin folder and execute
-catalina.bat run (on Windows)
-catalina.sh run (on Unix-based systems)
-Execute http://localhost:8080/test-executor/api/v1/trigger to trigger the BDD tests
+- Download Apache Tomcat and unpackage it into a tomcat folder
+- Copy our WAR file from target/test-executor.war to the tomcat/webapps/ folder
+- From a terminal navigate to tomcat/bin folder and execute
+- catalina.bat run (on Windows)
+- catalina.sh run (on Unix-based systems)
+- Execute http://localhost:8080/test-executor/api/v1/trigger to trigger the BDD tests
