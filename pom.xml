@@ -101,6 +101,7 @@
 						</dependency>
 					</requiresUnpack>
 					<addResources>true</addResources>
+					<finalName>${project.artifactId}</finalName>
 				</configuration>
 			</plugin>
 		</plugins>
